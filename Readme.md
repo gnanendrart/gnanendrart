@@ -1,6 +1,7 @@
 # Gnanendra Reddy (Gnan)
 
-Data analyst with 8 years in healthcare and public sector. Building LLM-powered automation and SQL analytics pipelines.
+8 years building data pipelines and analytics systems in healthcare and public sector.  
+Targeting **ML/AI Engineer**, **Data Engineer**, and **Senior Data Analyst** roles.
 
 CDC (2020–2026). Teladoc Health (2022–2023). Cognizant (2014–2018).  
 Calgary, AB. Open to remote roles.
@@ -15,11 +16,11 @@ Calgary, AB. Open to remote roles.
 
 An AI-powered job search pipeline built in two phases.
 
-**Phase 1 — Manual morning tool.** React + Express app. Scrapes LinkedIn and Indeed via Apify, scores each job against your resume using Claude, optimizes your bullets per job, generates cover letters, and manages your pipeline in a Kanban or list view.
+**Phase 1: Manual morning tool.** React + Express app. Scrapes LinkedIn and Indeed via Apify, scores each job against your resume using Claude, optimizes your bullets per job, generates cover letters, and manages your pipeline in a Kanban or list view.
 
-**Phase 2 — Automated overnight pipeline.** Runs at 7 AM via n8n on a self-hosted VPS. Scrapes both sources in parallel, drops jobs already processed (Supabase deduplication), scores each new job with Claude Haiku (fast, cheap), passes good-fit jobs (≥60/100) to Claude Sonnet for full resume tailoring, renders PDFs via self-hosted Gotenberg, uploads to Google Drive, and emails a summary. Daily effort on your end: under 10 minutes.
+**Phase 2: Automated overnight pipeline.** Runs at 7 AM via n8n on a self-hosted VPS. Scrapes both sources in parallel, drops jobs already processed (Supabase deduplication), scores each new job with Claude Haiku (fast, cheap), passes good-fit jobs (≥60/100) to Claude Sonnet for full resume tailoring, renders PDFs via self-hosted Gotenberg, uploads to Google Drive, and emails a daily digest. Daily effort on your end: under 10 minutes.
 
-The two-tier AI architecture — Haiku screening before Sonnet tailoring — matters both for cost and reliability. A poor-fit job sent directly to Sonnet sometimes returns a plain-text explanation instead of JSON, crashing the pipeline. The Haiku filter eliminates that failure mode for fractions of a cent per job.
+The two-tier AI architecture (Haiku screening before Sonnet tailoring) matters both for cost and reliability. A poor-fit job sent directly to Sonnet sometimes returns plain text instead of JSON, crashing the pipeline. The Haiku filter eliminates that failure mode for fractions of a cent per job.
 
 ---
 
@@ -45,12 +46,12 @@ SQL analytics on 16 years of IPL match data. 1,095 matches. 260,920 deliveries.
 
 | Area | Tools |
 |---|---|
+| LLM APIs | Anthropic Claude (Haiku, Sonnet) |
+| Automation | n8n |
 | Languages | SQL · Python · PySpark · R |
 | Databases | PostgreSQL · Snowflake · Redshift · SQL Server |
 | Cloud | AWS (S3, Glue, Lambda) · Azure Data Lake |
 | BI | Power BI · Tableau · Metabase |
-| LLM APIs | Anthropic Claude (Haiku, Sonnet) |
-| Automation | n8n |
 | Other | SAS · Docker · Git |
 
 ---
