@@ -11,7 +11,7 @@ Calgary, AB. Open to remote roles.
 ---
 ## Projects
 
-**[job-hunt-agent](https://github.com/gnanendrart/job-hunt-agent)** · React · Vite · Express · Claude API · Apify
+**[job-hunt-agent](https://github.com/gnanendrart/job-hunt-agent)** · [Live demo](https://job-hunt-agent.onrender.com) · React · Vite · Express · Claude API · Apify
 
 AI-powered job search assistant with a full web UI. Upload your resume, paste a job description — it scrapes LinkedIn and Indeed via Apify, ATS-scores every listing against your resume, optimizes your bullets per role, generates cover letters, estimates salary, and manages your pipeline in a Kanban or list view. Email digest included.
 
